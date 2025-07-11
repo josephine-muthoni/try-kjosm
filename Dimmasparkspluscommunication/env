@@ -1,0 +1,14 @@
+# .env
+
+# MongoDB Connection
+MONGO_URI=mongodb://localhost:27017/dimmasparksplus # Replace with your MongoDB connection string if using Atlas/remote
+
+# Email Sending Service (e.g., SendGrid)
+# Recommended for production:
+SENDGRID_API_KEY=YOUR_SENDGRID_API_KEY # Get this from SendGrid dashboard
+FEEDBACK_EMAIL_TO=feedback@dimmasparksplus.com # The email address where you want to receive feedback
+FEEDBACK_EMAIL_FROM=no-reply@dimmasparksplus.com # A verified sender email in SendGrid
+
+# OR (for development/testing with Gmail, NOT recommended for production)
+# GMAIL_USER=your_gmail_email@gmail.com
+# GMAIL_PASS=your_app_password # Create an app password for Gmail, not your main password
